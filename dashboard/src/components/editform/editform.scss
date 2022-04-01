@@ -1,0 +1,71 @@
+.editForm {
+	display: flex;
+	flex-direction: column;
+
+	.title {
+		padding: 20px;
+		font-size: 24px;
+		font-weight: bold;
+		color: #7b5ee4;
+	}
+
+	form {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		padding: 20px;
+		color: rgb(32, 32, 32);
+
+		p {
+			width: 100px;
+		}
+
+		.parentCate {
+			color: rgb(119, 116, 116);
+			align-items: center;
+			display: flex;
+			select {
+				flex: 1;
+				padding: 10px;
+				outline: none;
+				border-radius: 3px;
+			}
+		}
+
+		.name {
+			margin: 20px 0;
+			color: #888;
+			display: flex;
+			align-items: center;
+			input {
+				flex: 1;
+				color: rgb(119, 116, 116);
+				font-weight: bold;
+				padding: 5px;
+				outline: none;
+				border: none;
+				background-color: transparent;
+
+				&::placeholder {
+					color: #ccc;
+				}
+			}
+		}
+
+		.button {
+			margin-top: 10px;
+			display: flex;
+
+			button {
+				width: 100px;
+				padding: 10px;
+				background-color: #7b5ee4;
+				color: white;
+				border-radius: 3px;
+				font-weight: bold;
+				cursor: pointer;
+				border: none;
+			}
+		}
+	}
+}

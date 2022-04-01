@@ -1,0 +1,65 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: url('https://cdn.dribbble.com/userupload/2447744/file/original-d4eba8cc3331aac4aaabd4c1b10859bf.jpg?filters:format(webp)?filters%3Aformat%28webp%29=&compress=1&resize=1600x1200')
+		center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.register,
+	.login {
+		padding: 20px;
+		width: 30%;
+		background-color: rgba(255, 255, 255, 0.815);
+
+		.title {
+			font-size: 24px;
+		}
+
+		form {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+
+			input {
+				flex: 1;
+				min-width: 40%;
+				margin: 20px 10px 0 0;
+				padding: 10px;
+				border: none;
+				outline: none;
+				background-color: transparent;
+				border-bottom: 1px solid #7b5ee4;
+			}
+
+			.loginTip {
+				font-size: 14px;
+				color: #7b5ee4;
+				cursor: pointer;
+				align-self: flex-end;
+				margin: 10px 20px;
+			}
+
+			button {
+				align-self: center;
+				width: 40%;
+				border: 1px solid #7b5ee4;
+				background-color: white;
+				padding: 15px 20px;
+				margin-top: 20px;
+				cursor: pointer;
+				color: #7b5ee4;
+
+				&:disabled {
+					cursor: not-allowed;
+				}
+
+				&:hover {
+					background-color: #7b5ee4;
+					color: white;
+				}
+			}
+		}
+	}
+}

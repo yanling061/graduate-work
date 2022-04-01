@@ -1,0 +1,72 @@
+.navbar {
+	height: 60px;
+	@media screen and (max-width: 380px) {
+		display: none;
+	}
+
+	.wrapper {
+		display: flex;
+		padding: 10px 20px;
+		align-items: center;
+
+		.left {
+			display: flex;
+			align-items: center;
+			flex: 1;
+
+			.language {
+				cursor: pointer;
+				font-size: 14px;
+			}
+
+			.searchContainer {
+				border: 0.5px solid lightgray;
+				display: flex;
+				align-items: center;
+				margin-left: 25px;
+				padding: 5px;
+
+				input {
+					border: none;
+					outline: none;
+				}
+
+				.icon {
+					color: gray;
+					font-size: 16px;
+				}
+			}
+		}
+		.center {
+			cursor: pointer;
+			flex: 1;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.logo {
+				font-weight: bold;
+				font-size: 28px;
+			}
+
+			.desc {
+				font-size: 12px;
+				color: rgb(180, 180, 180);
+			}
+		}
+
+		.right {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+
+			.menuItem {
+				margin-left: 25px;
+				font-size: 14px;
+				cursor: pointer;
+			}
+		}
+	}
+}
