@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/57779935/161312362-14b26056-c3f7-4b50-b399-60d73f2fcc88.png)
 
 ### 注册页面
-![image](https://user-images.githubusercontent.com/57779935/161312487-8508f9ac-791d-423b-998a-ee2e1fea0c4e.png)
+![image](https://user-images.githubusercontent.com/57779935/161365079-da8c59a9-15a9-498f-b117-ae277980d667.png)
 
 ### 购物车
 ![image](https://user-images.githubusercontent.com/57779935/161312599-d9f65ad5-bead-47cb-bb00-6047514d312e.png)
