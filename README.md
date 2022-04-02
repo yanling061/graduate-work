@@ -58,7 +58,7 @@
 - 完成部分角色权限管理
 - 预计完成用户角色,订单,心愿清单接口
 
-### 获取产品列表演示
+### 本地获取产品列表演示
 ![image](https://user-images.githubusercontent.com/57779935/161364706-27ed998e-3bb2-4cb8-892f-6f61a1eb473c.png)
 
 
