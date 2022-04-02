@@ -59,6 +59,7 @@
 - 预计完成用户角色,订单,心愿清单接口
 
 ### 本地获取产品列表演示
-![image](https://user-images.githubusercontent.com/57779935/161364706-27ed998e-3bb2-4cb8-892f-6f61a1eb473c.png)
+![image](https://user-images.githubusercontent.com/57779935/161364948-13b5975d-1706-42f4-88f1-78bc2ec46601.png)
+
 
 
